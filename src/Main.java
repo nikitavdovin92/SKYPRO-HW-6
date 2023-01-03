@@ -49,7 +49,7 @@ public class Main {
                 System.out.println("доставки нет");
             }
         // Задача 5
-            int monthNumber = 12;
+            int monthNumber = 11;
             switch (monthNumber) {
                 case 12:
                 case 1:
