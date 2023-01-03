@@ -31,7 +31,12 @@ public class Main {
                 }
             }
             //Задача 3
-
+            int year = 2020;
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+                System.out.println(+year + " год является високосним");
+            } else {
+                System.out.println(+year + " год не является високосним");
+            }
         }
     }
 }
