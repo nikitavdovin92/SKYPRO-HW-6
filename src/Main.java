@@ -37,6 +37,19 @@ public class Main {
             } else {
                 System.out.println(+year + " год не является високосним");
             }
+        //Задача 4
+            int deliveryDistance = 95;
+            if (deliveryDistance < 20) {
+                System.out.println("доставка занимает 1 день");
+            } else if (deliveryDistance < 60) {
+                System.out.println("доставка занимает 2 дня");
+            } else if (deliveryDistance <100) {
+                System.out.println("доставка занимает 3 дня");
+            } else {
+                System.out.println("доставки нет");
+            }
+        // Задача 5
+
         }
     }
 }
